@@ -10,7 +10,7 @@
 				<span class="text-smtiny md:text-tiny tracking-tighter">18分前</span>
 			</div>
 		</div>
-		<p class="text-[#222222] px-[2.4vw] md:px-[23px] pb-[2vw] md:pb-[12px] text-smtiny md:text-tiny text-start tracking-tighter leading-[4vw]">
+		<p class="text-[#222222] px-[2.4vw] md:px-[23px] pb-[2vw] md:pb-[12px] text-smtiny md:text-tiny text-start tracking-[-0.1vw] md:tracking-[-0.5px] leading-[4vw]">
 			代官山スタジオについての感想や、コースについての評価など。
 			代官山スタジオについての感想や、コースについての評価など。
 			代官山...
@@ -27,9 +27,9 @@
 					<NuxtImg src="/img/voice/fb-icon-laugh.webp" loading="lazy"
 						class="w-[4.5vw] md:w-[22.5px] h-[4.5vw] md:h-[22.5px] relative left-[-2.2vw] md:left-[-11px]" alt="laugh" />
 					<span
-						class="text-smtiny md:text-tiny ml-[2vw] md:ml-[10px] relative left-[-2.4vw] md:left-[-12px] tracking-tighter">92</span>
+						class="text-smtiny md:text-tiny ml-[2vw] md:ml-[10px] relative left-[-2.4vw] md:left-[-12px] tracking-[-0.1vw] md:tracking-[-0.5px]">92</span>
 				</div>
-				<p class="text-[2.2vw] md:text-[11px] tracking-tighter">
+				<p class="text-[2.2vw] md:text-[11px] tracking-[-0.18vw] md:tracking-[-0.9px]">
 					コメント12件 シェア52件
 				</p>
 			</div>

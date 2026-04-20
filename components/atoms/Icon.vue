@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center">
-    <NuxtImg :src="img" loading="lazy" class="w-[3.5vw] md:w-[17.5px] h-[3vw] md:h-[15px]" alt="icon" />
-    <span class="text-[2.4vw] md:text-[12px] ml-[1vw] md:ml-[5px] tracking-tighter">{{ text }}</span>
+    <NuxtImg :src="img" loading="lazy" class="w-[3vw] md:w-[15px] h-[3vw] md:h-[15px]" alt="icon" />
+    <span class="text-[2.4vw] md:text-[12px] ml-[1vw] md:ml-[5px] tracking-[-0.25vw] md:tracking-[-1.25px]">{{ text }}</span>
   </div>
 </template>
 
