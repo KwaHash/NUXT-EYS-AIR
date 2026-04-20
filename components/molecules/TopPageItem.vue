@@ -16,6 +16,9 @@
 				<NuxtImg :src="relImg" loading="lazy"
 					class="absolute right-[7.28vw] md:right-[36px] w-[28.7vw] md:w-[144px] h-[76vw] md:h-[381px] translate-y-[-50%] top-[50.5%]"
 					alt="rel-img" />
+				<NuxtImg src="img/joinus/arrow.webp" loading="lazy"
+					class="absolute right-[2vw] md:right-[10px] w-[3.5vw] md:w-[17.5px] h-[5.6vw] md:h-[28px] translate-y-[-50%] top-[50.5%]"
+					alt="rel-img" />
 			</AtomsCard>
 		</div>
 	</div>
