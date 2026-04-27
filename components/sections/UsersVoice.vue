@@ -76,16 +76,23 @@ const slideNext = () => {
 
 .swiper-slide {
 	position: relative;
-	top: 60px;
+	top: 30px;
 	opacity: 0.5;
 	transition: transform 0.3s ease;
+	@media (min-width: 500px) {
+		top: 3rem;
+	}
 }
 
 .swiper-slide-active {
 	transform: scaleX(1.1);
-	top: 0;
+	top: 5px;
 	opacity: 1;
 	z-index: 10;
+
+	@media (min-width: 500px) {
+		top: 0.5rem;
+	}
 }
 </style>
 
