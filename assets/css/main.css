@@ -1,5 +1,6 @@
 body {
-	font-family: "Hiragino Sans", "Hiragino Kaku Gothic Pro", yugothic, "游ゴシック", "游ゴシック体", san-serif;
+	font-family: "Hiragino Sans";
+	/* font-family: "Hiragino Sans", "Hiragino Kaku Gothic Pro", yugothic, "游ゴシック", "游ゴシック体", san-serif; */
 }
 
 .container,
@@ -87,4 +88,8 @@ body {
 .scrollbar::-webkit-scrollbar-track-piece:start {
 	background: white;
 	margin-top: 0px;
+}
+
+.tracking-0 {
+	letter-spacing: 0 !important;
 }

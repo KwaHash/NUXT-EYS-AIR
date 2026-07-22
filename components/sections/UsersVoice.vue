@@ -4,7 +4,7 @@
 			alt="user's voice" />
 
 		<div class="relative">
-			<Swiper ref="swiperRef" class="mt-[6.7vw] md:mt-[23px] md:mb-[7px] voice-swiper" :slides-per-view="1.72" :effect="'creative'" :creative-effect="{
+			<Swiper ref="swiperRef" class="mt-[6.1vw] md:mt-[23px] md:mb-[7px] voice-swiper" :slides-per-view="1.72" :effect="'creative'" :creative-effect="{
 				prev: {
 					translate: ['-100%', 0, 0],
 				},
@@ -26,11 +26,11 @@
 				</SwiperSlide>
 			</Swiper>
 
-			<button @click="slidePrev" class="absolute left-[0vw] top-[2.7vw] md:top-[26px] z-20 cursor-pointer transition-opacity">
+			<button @click="slidePrev" class="absolute left-[0vw] top-[3.8vw] md:top-[26px] z-20 cursor-pointer transition-opacity">
 				<NuxtImg src="/img/voice/arrow-left.webp" loading="lazy" class="w-[13vw] md:w-[67px] h-[13vw] md:h-[67px]" alt="Previous" />
 			</button>
 
-			<button @click="slideNext" class="absolute right-[0vw] top-[2.7vw] md:top-[26px] z-20 cursor-pointer transition-opacity">
+			<button @click="slideNext" class="absolute right-[0vw] top-[3.8vw] md:top-[26px] z-20 cursor-pointer transition-opacity">
 				<NuxtImg src="/img/voice/arrow-right.webp" loading="lazy" class="w-[13vw] md:w-[67px] h-[13vw] md:h-[67px]" alt="Next" />
 			</button>
 		</div>
