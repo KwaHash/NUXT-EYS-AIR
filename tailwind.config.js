@@ -7,7 +7,7 @@ export default {
         md: { min: "500px" },
       },
       fontSize: {
-        tiny: ["12px", "20px"],
+        tiny: ["10.7px", "20px"],
         smtiny: ["2.4vw", "4vw"],
 
         mini: ["14px", "23px"],
